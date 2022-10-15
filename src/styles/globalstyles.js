@@ -5,7 +5,7 @@ import background from "../assets/images/background.svg";
 export const GlobalStyle = createGlobalStyle`
   :root{
     --background: #191920 url(${background}) no-repeat center top;
-    --text: #fff;
+    --text: #eee;
     --blue: #007fff;
     --containers: #d9d9d9;
     --containers-opacity: 0.3;
