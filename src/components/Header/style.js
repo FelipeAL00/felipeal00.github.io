@@ -4,7 +4,7 @@ export const Container = styled.header`
   max-width: 1120px;
   margin: 0 auto;
 
-  padding: 1rem 1rem 1rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,8 +21,15 @@ export const BackgroundImageLogo = styled.div`
 export const Menu = styled.menu`
   display: flex;
   justify-content: space-between;
-  li {
-    padding: 1rem;
-    list-style: none;
+`;
+
+export const MenuOption = styled.li`
+  list-style: none;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 0.3;
   }
 `;

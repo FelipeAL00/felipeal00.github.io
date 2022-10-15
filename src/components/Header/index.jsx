@@ -1,12 +1,12 @@
-import { BackgroundImageLogo, Container, Menu } from "./style";
+import { BackgroundImageLogo, Container, Menu, MenuOption } from "./style";
 export default function Header() {
   return (
     <Container>
       <BackgroundImageLogo />
       <Menu>
-        <li>SOBRE MIM</li>
-        <li>FORMAÇÕES</li>
-        <li>PROJETOS</li>
+        <MenuOption>SOBRE MIM</MenuOption>
+        <MenuOption>FORMAÇÕES</MenuOption>
+        <MenuOption>PROJETOS</MenuOption>
       </Menu>
     </Container>
   );
