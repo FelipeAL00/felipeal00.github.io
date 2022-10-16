@@ -21,6 +21,11 @@ export const BackgroundImageLogo = styled.div`
 export const Menu = styled.menu`
   display: flex;
   justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 `;
 
 export const MenuOption = styled.li`

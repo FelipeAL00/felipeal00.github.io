@@ -8,8 +8,8 @@ export default function CreateRoutes() {
   return (
     <Routes>
       <Route exact path="/" element={<AboutMe />} />
-      <Route path="/education" element={<Education />} />
-      <Route path="/projects" element={<Projects />} />
+      <Route path="/formacoes" element={<Education />} />
+      <Route path="/projetos" element={<Projects />} />
     </Routes>
   );
 }

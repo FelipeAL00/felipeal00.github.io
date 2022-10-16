@@ -22,6 +22,7 @@ class Projects extends Component {
           <li key={project.id}>
             <strong>{project.name}</strong>
             <span>{project.description}</span>
+            <label>{project.language}</label>
             <Button to={project.html_url}>
               <span>Ver mais...</span>
             </Button>
