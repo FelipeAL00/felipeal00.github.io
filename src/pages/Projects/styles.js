@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
-
 export const ProjectList = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -27,18 +25,21 @@ export const ProjectList = styled.ul`
     font-size: 1rem;
     line-height: 1.2rem;
     margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
   }
 
   span {
     font-size: 0.7rem;
     margin: auto 0;
     color: #ddd;
+    margin-bottom: 0.5rem;
   }
 
   label {
     font-size: 0.5rem;
     color: #ccc;
     margin: auto 0;
+    margin-bottom: 0.1rem;
   }
 `;
 
@@ -49,24 +50,19 @@ export const Button = styled.a`
   overflow: hidden;
   border-radius: 0.2rem;
   display: flex;
-  margin-top: auto;
   align-items: center;
   transition: all 0.2s;
-  height: 1.5rem;
   text-decoration: none;
   &:hover {
     opacity: 0.5;
   }
 
   span {
-    flex: 1;
     text-align: center;
+    flex: 1;
     font-weight: 600;
     color: #333;
     transition: all 0.2s;
-
-    color: #000;
-    &:hover {
-    }
+    margin-top: 0.3rem;
   }
 `;

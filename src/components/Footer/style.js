@@ -11,11 +11,13 @@ export const Container = styled.footer`
 `;
 
 export const Content = styled.div`
-  svg {
+  a {
+    text-decoration: none;
+    color: #aaa;
     margin: 0 0.5rem;
     transition: all 0.2s;
     &:hover {
-      opacity: 0.5;
+      color: #fff;
     }
   }
 `;

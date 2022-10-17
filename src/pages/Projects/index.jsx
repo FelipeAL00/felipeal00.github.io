@@ -20,8 +20,8 @@ class Projects extends Component {
       <ProjectList>
         {projects.map((project) => (
           <li key={project.id}>
-            <strong>Projeto: {project.name}</strong>
-            <span>Descrição: {project.description}</span>
+            <strong>{project.name}</strong>
+            <span>{project.description}</span>
             <label>Linguagem: {project.language}</label>
             <Button href={project.html_url} target="_blank">
               <span>Ver mais...</span>

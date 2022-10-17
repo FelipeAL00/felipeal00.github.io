@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const Fixed = styled.div`
+  position: fixed;
+  width: 100%;
+
+  &:-webkit-scrollbar {
+    background: #fff;
+    color: #fff;
+  }
+`;
+
 export const Container = styled.header`
   max-width: 1120px;
   margin: 0 auto;
