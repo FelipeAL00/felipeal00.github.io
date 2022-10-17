@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import {
   BackgroundImageLogo,
   Container,
-  Fixed,
   Menu,
   MenuOption,
+  Content,
 } from "./style";
 export default function Header() {
   return (
-    <Fixed>
-      <Container>
+    <Container>
+      <Content>
         <BackgroundImageLogo />
         <Menu>
           <Link to="/">
@@ -22,7 +22,7 @@ export default function Header() {
             <MenuOption>PROJETOS</MenuOption>
           </Link>
         </Menu>
-      </Container>
-    </Fixed>
+      </Content>
+    </Container>
   );
 }

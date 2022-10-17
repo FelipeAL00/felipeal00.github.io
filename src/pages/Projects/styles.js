@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const ProjectList = styled.ul`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.6rem;
   list-style: none;
-  margin: 1rem;
 
   @media (max-width: 900px) {
     grid-template-columns: repeat(1, 1fr);
@@ -21,14 +20,8 @@ export const ProjectList = styled.ul`
     margin: 0 0.6rem;
   }
 
-  strong {
-    font-size: 1rem;
-    line-height: 1.2rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.5rem;
-  }
-
   span {
+    text-align: justify;
     font-size: 0.7rem;
     margin: auto 0;
     color: #ddd;
@@ -36,11 +29,34 @@ export const ProjectList = styled.ul`
   }
 
   label {
+    text-align: justify;
     font-size: 0.5rem;
     color: #ccc;
     margin: auto 0;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.3rem;
   }
+`;
+
+export const AvatarHeader = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid #fff;
+
+  strong {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
+  }
+`;
+
+export const AvatarImage = styled.img`
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
 `;
 
 export const Button = styled.a`

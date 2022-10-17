@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { ProjectList, Button } from "./styles";
+import { ProjectList, Button, AvatarImage, AvatarHeader } from "./styles";
 
 import api from "../../services/api";
+import { GitHub } from "@mui/icons-material";
 
 class Projects extends Component {
   state = {
@@ -20,7 +21,17 @@ class Projects extends Component {
       <ProjectList>
         {projects.map((project) => (
           <li key={project.id}>
-            <strong>{project.name}</strong>
+            <AvatarHeader>
+              <strong>{project.name}</strong>
+              {project.owner.avatar_url ? (
+                <AvatarImage
+                  src={project.owner.avatar_url}
+                  alt="avatar_image"
+                />
+              ) : (
+                <GitHub />
+              )}
+            </AvatarHeader>
             <span>{project.description}</span>
             <label>Linguagem: {project.language}</label>
             <Button href={project.html_url} target="_blank">
