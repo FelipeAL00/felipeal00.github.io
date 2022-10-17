@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Container = styled.div``;
 
@@ -43,7 +42,7 @@ export const ProjectList = styled.ul`
   }
 `;
 
-export const Button = styled(Link)`
+export const Button = styled.a`
   background: #f5f5f5;
   color: #000;
   border: none;
