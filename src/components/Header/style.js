@@ -4,8 +4,8 @@ export const Container = styled.header`
   width: 100%;
   position: fixed;
   background: #141419;
-  border-bottom: 0.1rem solid #fff;
-  margin-bottom: 1rem;
+  top: 0;
+  left: 0;
 `;
 
 export const Content = styled.div`
