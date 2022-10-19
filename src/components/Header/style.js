@@ -19,11 +19,10 @@ export const Content = styled.div`
   justify-content: space-between;
 `;
 
-export const BackgroundImageLogo = styled.div`
+export const BackgroundImageLogo = styled.img`
   width: 2rem;
   height: 2rem;
   background: #d9d9d9;
-  opacity: 0.3;
   border-radius: 50%;
 `;
 

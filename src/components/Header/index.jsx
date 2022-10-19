@@ -6,11 +6,13 @@ import {
   MenuOption,
   Content,
 } from "./style";
+
+import logo_image from "../../assets/images/logo_image.jpg";
 export default function Header() {
   return (
     <Container>
       <Content>
-        <BackgroundImageLogo />
+        <BackgroundImageLogo src={logo_image} />
         <Menu>
           <Link to="/">
             <MenuOption>SOBRE MIM</MenuOption>

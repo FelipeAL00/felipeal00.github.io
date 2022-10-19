@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const ProjectList = styled.ul`
-  margin-top: 5rem;
+  margin: 5rem 1rem;
   margin-bottom: 2rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 0.6rem;
   list-style: none;
 
