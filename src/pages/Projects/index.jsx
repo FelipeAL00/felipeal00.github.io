@@ -23,14 +23,7 @@ class Projects extends Component {
           <li key={project.id}>
             <AvatarHeader>
               <strong>{project.name}</strong>
-              {project.owner.avatar_url ? (
-                <AvatarImage
-                  src={project.owner.avatar_url}
-                  alt="avatar_image"
-                />
-              ) : (
-                <GitHub />
-              )}
+              <GitHub />
             </AvatarHeader>
             <span>{project.description}</span>
             <label>Linguagem: {project.language}</label>
