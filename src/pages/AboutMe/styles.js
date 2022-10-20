@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 5rem 1rem;
+  margin: 5rem auto;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 `;
 
 export const Content = styled.div`
@@ -18,6 +19,7 @@ export const Content = styled.div`
 
   @media (max-width: 900px) {
     max-width: 500px;
+    width: 80%;
   }
 `;
 
@@ -53,7 +55,11 @@ export const Body = styled.div`
 
   li {
     font-size: 0.8rem;
-    list-style: none;
+    margin-left: 1rem;
+  }
+
+  label {
+    font-size: 0.8rem;
     margin-left: 1rem;
   }
 
@@ -67,6 +73,8 @@ export const Body = styled.div`
     align-items: center;
     transition: all 0.2s;
     text-decoration: none;
+    margin-top: 0.3rem;
+    padding: 0.1rem;
     &:hover {
       opacity: 0.5;
     }
@@ -77,7 +85,6 @@ export const Body = styled.div`
       font-weight: 600;
       color: #333;
       transition: all 0.2s;
-      margin-top: 0.3rem;
     }
   }
 `;

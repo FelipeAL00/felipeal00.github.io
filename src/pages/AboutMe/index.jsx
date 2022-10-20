@@ -18,15 +18,10 @@ export default function AboutMe() {
             contato com um computador. Atualmente trabalhando como Analista de
             Qualidade Pleno. Algumas tecnologias que uso e pratico:
           </p>
-          <li>Selenium</li>
-          <li>Cucumber</li>
-          <li>Java</li>
-          <li>Python</li>
-          <li>Javascript</li>
-          <li>React</li>
-          <li>Node</li>
-          <li>Cypress</li>
-          <li>Maven</li>
+          <label>
+            Selenium, Cucumber, Java, Python, Javascript, React, Node, Cypress e
+            Maven
+          </label>
 
           <p>Experiências:</p>
           <li>
@@ -45,7 +40,7 @@ export default function AboutMe() {
 
           <p>Avalie meu curriculo: </p>
           <a href={pdf} target="_blank" rel="noreferrer">
-            Ver mais
+            <span>Ver mais</span>
           </a>
         </Body>
       </Content>
