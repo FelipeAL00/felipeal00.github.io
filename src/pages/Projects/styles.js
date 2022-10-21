@@ -55,12 +55,6 @@ export const AvatarHeader = styled.div`
   }
 `;
 
-export const AvatarImage = styled.img`
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-`;
-
 export const Button = styled.a`
   background: #f5f5f5;
   color: #000;

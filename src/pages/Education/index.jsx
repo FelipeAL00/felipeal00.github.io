@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Container,
   Content,
@@ -8,23 +7,54 @@ import {
   EducationList,
 } from "./styles";
 
-import fecaf from "../../assets/images/fecaf_logo.jpg";
+import fecaf from "../../assets/images/logo_fecaf.jpg";
+import etec from "../../assets/images/logo_etec.jpg";
 
 function Education() {
   return (
     <Container>
       <EducationList>
-        <Content>
+        <Content
+          href="https://www.fecaf.com.br/cursos/analise-e-desenvolvimento-de-sistemas"
+          target="_blank"
+          rel="noreferrer"
+        >
           <EducationHeader>
             <strong>Análise e desenvolvimento de sistemas</strong>
             <img src={fecaf} alt="" />
           </EducationHeader>
-          <EducationBody></EducationBody>
+          <EducationBody>
+            <strong>Instituição: FECAF</strong>
+            <label>Duração: 2 anos e 6 meses</label>
+            <label>Status: Cursando</label>
+            <label>Nível: Técnologo</label>
+            <p>
+              O curso visa ensinar na prática e na teoria como ser um Analista
+              de sistemas e/ou Desenvolvedor de software. Dentre conteúdos
+              aprendidos temos: Python, Java, Ágil e MySQL
+            </p>
+          </EducationBody>
         </Content>
-        <Content>
+        <Content
+          href="https://www.etecdeembu.com.br/Cursos/curso/3"
+          target="_blank"
+          rel="noreferrer"
+        >
           <EducationHeader>
-            <strong></strong>
+            <strong>Desenvolvimento de Software</strong>
+            <img src={etec} alt="" />
           </EducationHeader>
+          <EducationBody>
+            <strong>Instituição: CPS - Etec de Embu das Artes</strong>
+            <label>Duração: 1 ano e 6 meses</label>
+            <label>Status: Concluído</label>
+            <label>Nível: Técnico</label>
+            <p>
+              O curso visa ensinar na prática como ser Desenvolvedor de
+              software. Dentre conteúdos aprendidos temos: Python, Java, BDD,
+              TDD, C#, PHP e Javascript
+            </p>
+          </EducationBody>
         </Content>
         <Content>
           <EducationHeader>

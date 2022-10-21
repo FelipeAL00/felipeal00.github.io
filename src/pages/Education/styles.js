@@ -3,6 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin: 5rem auto;
   margin-bottom: 2rem;
+
+  strong {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top: 0.8rem;
+    padding-bottom: 0.3rem;
+  }
 `;
 
 export const EducationList = styled.div`
@@ -15,7 +22,7 @@ export const EducationList = styled.div`
   }
 `;
 
-export const Content = styled.div`
+export const Content = styled.a`
   display: flex;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.4);
@@ -23,6 +30,12 @@ export const Content = styled.div`
   padding: 1.2rem;
   text-align: center;
   margin: 0 0.6rem;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: var(--text);
+  &:hover {
+    opacity: 0.9;
+  }
 `;
 
 export const EducationHeader = styled.div`
@@ -33,15 +46,12 @@ export const EducationHeader = styled.div`
   border-bottom: 0.1rem solid #fff;
 
   strong {
-    font-size: 1rem;
-    line-height: 1.2rem;
-    margin-top: 0.8rem;
     margin-bottom: 0.5rem;
-    padding-bottom: 0.3rem;
   }
 
   img {
     width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
   }
 `;
@@ -49,4 +59,25 @@ export const EducationHeader = styled.div`
 export const EducationBody = styled.div`
   display: flex;
   flex-direction: column;
+
+  strong {
+    text-align: justify;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    text-align: justify;
+
+    div {
+      margin-left: 0.1rem;
+    }
+  }
+
+  p {
+    opacity: 0.8;
+    text-align: justify;
+    font-size: 0.6rem;
+  }
 `;

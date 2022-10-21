@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { ProjectList, Button, AvatarImage, AvatarHeader } from "./styles";
+import { ProjectList, Button, AvatarHeader } from "./styles";
 
 import api from "../../services/api";
 import { GitHub } from "@mui/icons-material";
