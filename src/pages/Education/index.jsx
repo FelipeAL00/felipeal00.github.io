@@ -30,7 +30,7 @@ function Education() {
             <label>Nível: Técnologo</label>
             <p>
               O curso visa ensinar na prática e na teoria como ser um Analista
-              de sistemas e/ou Desenvolvedor de software. Dentre conteúdos
+              de sistemas e/ou Desenvolvedor de software. Dentre os conteúdos
               aprendidos temos: Python, Java, Ágil e MySQL
             </p>
           </EducationBody>
@@ -51,15 +51,28 @@ function Education() {
             <label>Nível: Técnico</label>
             <p>
               O curso visa ensinar na prática como ser Desenvolvedor de
-              software. Dentre conteúdos aprendidos temos: Python, Java, BDD,
+              software. Dentre os conteúdos aprendidos temos: Python, Java, BDD,
               TDD, C#, PHP e Javascript
             </p>
           </EducationBody>
         </Content>
         <Content>
           <EducationHeader>
-            <strong></strong>
+            <strong>Redes de Computadores</strong>
+            <img src={etec} alt="" />
           </EducationHeader>
+          <EducationBody>
+            <strong>Instituição: CPS - Etec de Embu das Artes</strong>
+            <label>Duração: 1 ano e 6 meses</label>
+            <label>Status: Concluído</label>
+            <label>Nível: Técnico</label>
+            <p>
+              O curso visa ensinar na prática como trabalhar diretamente como um
+              técnico em redes de computadores, seja instalando, configurando,
+              ou arquitetando uma rede. Algumas das habilidades obtidas neste
+              curso:
+            </p>
+          </EducationBody>
         </Content>
         <Content>
           <EducationHeader>
