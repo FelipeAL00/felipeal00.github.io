@@ -6,7 +6,7 @@ import { GlobalStyle } from "./styles/globalstyles";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <GlobalStyle />
       <Routes />

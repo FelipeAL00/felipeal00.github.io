@@ -9,6 +9,7 @@ import {
 
 import fecaf from "../../assets/images/logo_fecaf.jpg";
 import etec from "../../assets/images/logo_etec.jpg";
+import escola from "../../assets/images/logo_escola.png";
 
 function Education() {
   return (
@@ -76,8 +77,19 @@ function Education() {
         </Content>
         <Content>
           <EducationHeader>
-            <strong></strong>
+            <strong>Ensino médio</strong>
+            <img src={escola} alt="" />
           </EducationHeader>
+          <EducationBody>
+            <strong>Instituição: E.E. Profº Laert Almeida São Bernardo</strong>
+            <label>Duração: 3 anos</label>
+            <label>Status: Concluído</label>
+            <label>Nível: Médio</label>
+            <p>
+              Curso básico de ensino obrigatório e fundamental para desenvolver
+              as bases do adolescente e jovem
+            </p>
+          </EducationBody>
         </Content>
       </EducationList>
     </Container>

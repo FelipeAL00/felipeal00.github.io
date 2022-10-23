@@ -12,7 +12,9 @@ export default function Header() {
   return (
     <Container>
       <Content>
-        <BackgroundImageLogo src={logo_image} />
+        <Link to="/">
+          <BackgroundImageLogo src={logo_image} />
+        </Link>
         <Menu>
           <Link to="/">
             <MenuOption>SOBRE MIM</MenuOption>
