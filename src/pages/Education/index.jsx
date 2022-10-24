@@ -1,4 +1,5 @@
 import React from "react";
+import ListType from "../../components/ListType";
 import {
   Container,
   Content,
@@ -10,6 +11,7 @@ import {
 import fecaf from "../../assets/images/logo_fecaf.jpg";
 import etec from "../../assets/images/logo_etec.jpg";
 import escola from "../../assets/images/logo_escola.png";
+import { certified } from "../../assets/data/certified";
 
 function Education() {
   return (
@@ -57,7 +59,11 @@ function Education() {
             </p>
           </EducationBody>
         </Content>
-        <Content>
+        <Content
+          href="https://www.etecdeembu.com.br/Cursos/curso/8"
+          target="_blank"
+          rel="noreferrer"
+        >
           <EducationHeader>
             <strong>Redes de Computadores</strong>
             <img src={etec} alt="" />
@@ -75,7 +81,11 @@ function Education() {
             </p>
           </EducationBody>
         </Content>
-        <Content>
+        <Content
+          href="http://www.educacao.sp.gov.br/cgrh/escolas/laert-de-almeida-sao-bernardo-professor/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <EducationHeader>
             <strong>Ensino médio</strong>
             <img src={escola} alt="" />
@@ -92,6 +102,7 @@ function Education() {
           </EducationBody>
         </Content>
       </EducationList>
+      <ListType title={certified.title} content={certified.data} />
     </Container>
   );
 }
