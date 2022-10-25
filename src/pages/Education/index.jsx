@@ -17,6 +17,7 @@ import List from "../../components/List";
 function Education() {
   return (
     <Container>
+      <h3>Formação Acadêmica</h3>
       <EducationList>
         <Content
           href="https://www.fecaf.com.br/cursos/analise-e-desenvolvimento-de-sistemas"
@@ -103,6 +104,7 @@ function Education() {
           </EducationBody>
         </Content>
       </EducationList>
+      <h3>Formação Complementar</h3>
       <List data={certifieds} />
     </Container>
   );

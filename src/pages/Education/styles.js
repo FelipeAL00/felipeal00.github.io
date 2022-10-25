@@ -4,6 +4,10 @@ export const Container = styled.div`
   margin: 5rem auto;
   margin-bottom: 2rem;
 
+  h3 {
+    margin: 1rem 0.6rem;
+  }
+
   strong {
     font-size: 1rem;
     line-height: 1.2rem;
@@ -33,8 +37,11 @@ export const Content = styled.a`
   transition: all 0.2s;
   text-decoration: none;
   color: var(--text);
+  cursor: pointer;
   &:hover {
-    opacity: 0.9;
+    background: #fff;
+    color: #000;
+    border-color: #000;
   }
 `;
 
@@ -81,5 +88,3 @@ export const EducationBody = styled.div`
     font-size: 0.6rem;
   }
 `;
-
-export const ComplementarList = styled.div``;

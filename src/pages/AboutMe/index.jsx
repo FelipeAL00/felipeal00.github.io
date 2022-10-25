@@ -23,7 +23,7 @@ export default function AboutMe() {
             Maven
           </label>
 
-          <p>Experiências:</p>
+          <strong>Experiências:</strong>
           <li>
             Internacional Games Solution/Ortiz Gaming - Empresa multinacional
             voltada para o ramo de jogos 2D para cassinos atuando na América,
@@ -38,9 +38,9 @@ export default function AboutMe() {
             trabalhando como terceirizado para a Zurich - Santander{" "}
           </li>
 
-          <p>Avalie meu curriculo: </p>
+          <strong>Avalie meu curriculo: </strong>
           <a href={pdf} target="_blank" rel="noreferrer">
-            <span>Ver mais</span>
+            <span>Clique Aqui</span>
           </a>
         </Body>
       </Content>

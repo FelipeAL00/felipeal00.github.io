@@ -24,6 +24,12 @@ export const Component = styled.a`
 
   display: flex;
   flex-direction: column;
+  transition: all 0.2s;
+
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
 `;
 
 export const Header = styled.div`

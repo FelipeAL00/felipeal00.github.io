@@ -53,6 +53,14 @@ export const Body = styled.div`
     text-align: justify;
   }
 
+  strong {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    width: 100%;
+    text-align: justify;
+    margin-top: 0.5rem;
+  }
+
   li {
     font-size: 0.8rem;
     margin-left: 1rem;
