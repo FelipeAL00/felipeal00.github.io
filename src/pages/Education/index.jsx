@@ -103,10 +103,7 @@ function Education() {
           </EducationBody>
         </Content>
       </EducationList>
-      <List
-        key={certifieds.map((certified) => certified.id)}
-        data={certifieds}
-      />
+      <List data={certifieds} />
     </Container>
   );
 }
