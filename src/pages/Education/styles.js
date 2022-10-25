@@ -81,3 +81,5 @@ export const EducationBody = styled.div`
     font-size: 0.6rem;
   }
 `;
+
+export const ComplementarList = styled.div``;

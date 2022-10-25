@@ -11,6 +11,9 @@ import fecaf from "../../assets/images/logo_fecaf.jpg";
 import etec from "../../assets/images/logo_etec.jpg";
 import escola from "../../assets/images/logo_escola.png";
 
+import { certifieds } from "../../assets/data/data";
+import List from "../../components/List";
+
 function Education() {
   return (
     <Container>
@@ -92,6 +95,10 @@ function Education() {
           </EducationBody>
         </Content>
       </EducationList>
+      <List
+        key={certifieds.map((certified) => certified.id)}
+        data={certifieds}
+      />
     </Container>
   );
 }
