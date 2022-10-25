@@ -60,7 +60,11 @@ function Education() {
             </p>
           </EducationBody>
         </Content>
-        <Content>
+        <Content
+          href="https://www.etecdeembu.com.br/Cursos/curso/8"
+          target="_blank"
+          rel="noreferrer"
+        >
           <EducationHeader>
             <strong>Redes de Computadores</strong>
             <img src={etec} alt="" />
@@ -78,7 +82,11 @@ function Education() {
             </p>
           </EducationBody>
         </Content>
-        <Content>
+        <Content
+          href="http://www.educacao.sp.gov.br/cgrh/escolas/laert-de-almeida-sao-bernardo-professor/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <EducationHeader>
             <strong>Ensino médio</strong>
             <img src={escola} alt="" />
