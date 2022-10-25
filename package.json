@@ -20,14 +20,14 @@
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "https://felipeal00.github.io/felipeal00",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
